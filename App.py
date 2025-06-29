@@ -16,3 +16,7 @@ if uploaded_file:
         df = pd.read_excel(uploaded_file)
     st.write("**Datenvorschau:**")
     st.dataframe(df)
+
+    # Statistische Kennzahlen
+    st.header("Deskriptive Statistik")
+    st.write(df.describe())
