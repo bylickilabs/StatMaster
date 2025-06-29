@@ -2,6 +2,9 @@
 
 **StatMaster** ist eine interaktive Anwendung für schnelle Datenanalyse und Visualisierung. Laden Sie einfach Ihre CSV- oder Excel-Dateien hoch, analysieren Sie Statistiken und erstellen Sie Diagramme – ganz ohne Programmierkenntnisse.
 
+|![stat](https://github.com/user-attachments/assets/d2dcc285-2661-46e5-8c20-d026b746246e)|
+|---|
+
 ---
 
 ## 🌟 Features
