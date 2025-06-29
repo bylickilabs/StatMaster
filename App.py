@@ -20,3 +20,10 @@ if uploaded_file:
     # Statistische Kennzahlen
     st.header("Deskriptive Statistik")
     st.write(df.describe())
+
+   # Korrelationsmatrix
+    st.header("Korrelationsmatrix")
+    corr = df.corr(numeric_only=True)
+    fig, ax = plt.subplots()
+    sns.heatmap(corr, annot=True, cmap="coolwarm", ax=ax)
+    st.pyplot(fig)
