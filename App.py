@@ -55,3 +55,6 @@ if uploaded_file:
             fig4, ax4 = plt.subplots()
             sns.scatterplot(x=df[cols[0]], y=df[cols[1]], hue=df['cluster'], palette="deep", ax=ax4)
             st.pyplot(fig4)
+
+else:
+    st.info("Bitte laden Sie eine CSV- oder Excel-Datei hoch, um zu starten.")
