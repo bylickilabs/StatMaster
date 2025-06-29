@@ -42,3 +42,16 @@ if uploaded_file:
         fig3, ax3 = plt.subplots()
         sns.histplot(df[col_hist], kde=True, ax=ax3)
         st.pyplot(fig3)
+
+   # Einfaches Clustering (optional)
+    if st.checkbox("K-Means Clustering durchführen"):
+        from sklearn.cluster import KMeans
+        n_clusters = st.slider("Cluster-Anzahl", 2, 8, 3)
+        cols = st.multiselect("Spalten für Clustering", df.select_dtypes(include=np.number).columns.tolist())
+        if len(cols) >= 2:
+            km = KMeans(n_clusters=n_clusters)
+            df['cluster'] = km.fit_predict(df[cols])
+            st.write(df[['cluster'] + cols])
+            fig4, ax4 = plt.subplots()
+            sns.scatterplot(x=df[cols[0]], y=df[cols[1]], hue=df['cluster'], palette="deep", ax=ax4)
+            st.pyplot(fig4)
