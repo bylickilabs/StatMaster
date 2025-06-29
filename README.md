@@ -36,3 +36,29 @@
    ```powershell
    python -m pip install --upgrade pip
    python -m pip install streamlit pandas numpy matplotlib seaborn scikit-learn
+   ```
+
+---
+
+🖱️ Anwendung nutzen
+Laden Sie eine CSV- oder Excel-Datei über die Weboberfläche hoch.
+Erkunden Sie die automatisch berechneten Statistiken.
+Erstellen Sie verschiedene Visualisierungen.
+Optional: Probieren Sie K-Means-Clustering aus.
+
+---
+
+❓ FAQ
+Was mache ich bei Installationsproblemen?
+Prüfen Sie die Python-Version (python --version)
+Nutzen Sie ausschließlich Python 3.12.x
+Kontrollieren Sie, ob alle Pakete ohne Fehlermeldung installiert wurden
+Funktioniert die App auf macOS/Linux?
+Ja, sofern Python 3.12.x und alle Pakete installiert sind.
+Kann ich meine Daten exportieren?
+Ergebnisse können als Screenshot, CSV oder Excel-Datei gespeichert werden.
+
+---
+
+📄 Lizenz
+MIT License – (LICENSE)[LICENSE]
