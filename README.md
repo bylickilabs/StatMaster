@@ -29,7 +29,7 @@
    - Klonen Sie das Repository per Git:
 
      ```powershell
-     git clone https://github.com/IHR_GITHUB_BENUTZERNAME/IHR_REPOSITORY_NAME.git
+     git clone https://github.com/bylickilabs/StatMaster.git
      cd IHR_REPOSITORY_NAME
      ```
 
