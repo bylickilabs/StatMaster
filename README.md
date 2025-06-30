@@ -30,7 +30,6 @@
 
      ```powershell
      git clone https://github.com/bylickilabs/StatMaster.git
-     cd IHR_REPOSITORY_NAME
      ```
 
 3. **Benötigte Pakete installieren**  
