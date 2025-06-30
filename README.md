@@ -66,4 +66,4 @@ Ergebnisse können als Screenshot, CSV oder Excel-Datei gespeichert werden.
 ---
 
 📄 Lizenz
-MIT License – (LICENSE)[LICENSE]
+MIT License – [LICENSE](LICENSE)
