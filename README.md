@@ -51,7 +51,7 @@
 > Im Projektordner ein Terminal öffnen
 
 ```
-cd C:\Users\bylic\Desktop\StatMaster-main
+cd C:\Users\ ... \Desktop\StatMaster-main
 python -m streamlit run app.py
 ```
 
