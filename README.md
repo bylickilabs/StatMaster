@@ -48,6 +48,13 @@
     - Erstellen Sie verschiedene Visualisierungen.
       - Optional: Probieren Sie K-Means-Clustering aus.
 
+> Im Projektordner ein Terminal öffnen
+
+```
+cd C:\Users\bylic\Desktop\StatMaster-main
+python -m streamlit run app.py
+```
+
 ---
 
 ❓ FAQ
